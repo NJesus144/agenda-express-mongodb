@@ -3,6 +3,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dataBaseURL = process.env.CONNECTIONSTRING;
+const PORT = process.env.PORT || 3000;
+const HOST = "0.0.0.0";
 
 mongoose
   .connect(process.env.CONNECTIONSTRING)
@@ -22,10 +24,9 @@ const {
   csrfMiddleware,
 } = require("./src/middlewares/middleware");
 
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.resolve(__dirname,  "public")));
+app.use(express.static(path.resolve(__dirname, "public")));
 
 const sessionOptions = session({
   secret: "story book",
@@ -53,8 +54,7 @@ app.use(csrfMiddleware);
 app.use(routes);
 
 app.on("pronto", () => {
-  app.listen(process.env.PORT || 3000, () => {
-    console.log("Acessar http://localhost:3000");
-    console.log("Servidor executando na porta 3000");
+  app.listen(PORT, HOST, () => {
+    console.log(`Listening on ${PORT}`);
   });
 });
