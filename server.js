@@ -5,7 +5,6 @@ const mongoose = require("mongoose");
 const dataBaseURL = process.env.CONNECTIONSTRING;
 const PORT = process.env.PORT || 3000;
 
-
 mongoose
   .connect(process.env.CONNECTIONSTRING)
   .then(() => {
@@ -55,6 +54,6 @@ app.use(routes);
 
 app.on("pronto", () => {
   app.listen(PORT, () => {
-    console.log(`Listening on ${PORT}`);
+    console.log(`Listening on 3000`);
   });
 });
