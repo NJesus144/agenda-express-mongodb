@@ -17,16 +17,22 @@
 # Sobre
 <p>Projeto agenda, utilizando Mongodb como banco de dados.</p>
 
-<h2> Cadastro de usuário. </h2>
+## Cadastro de usuário. 
 
 <p align="center">
-  <img width="470" src="frontend/assets/img/cadastroGiF.gif">
+  <img width="680" src="frontend/assets/img/cadastroGiF.gif">
 </p>
 
-(https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroBackend.gif)
+<p align="center">
+  <img width="680" src="frontend/assets/img/cadastroBackend.gif">
+</p>
 
-<h2> Criando, editando e excluindo contato da agenda.</h2>
-(https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroAgenda.gif)
+
+ ## Criando, editando e excluindo contato da agenda.
+<p align="center">
+  <img width="680" src="frontend/assets/img/cadastroAgenda.gif">
+</p>
+
 
 
 
