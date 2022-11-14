@@ -20,10 +20,10 @@
 <h2> Cadastro de usuário. </h2>
 ![Agenda](https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroGiF.gif)
 
-![Agenda](https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroBackend.gif)
+(https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroBackend.gif)
 
 <h2> Criando, editando e excluindo contato da agenda.</h2>
-![Agenda](https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroAgenda.gif)
+(https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroAgenda.gif)
 
 
 
