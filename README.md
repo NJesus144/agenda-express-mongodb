@@ -18,7 +18,7 @@
 <p>Projeto agenda, utilizando Mongodb como banco de dados.</p>
 
 <h2> Cadastro de usuário. </h2>
-![Agenda](https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroGiF.gif)
+https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroGiF.gif
 
 (https://github.com/NJesus144/agenda-express-mongodb/blob/main/frontend/assets/img/cadastroBackend.gif)
 
